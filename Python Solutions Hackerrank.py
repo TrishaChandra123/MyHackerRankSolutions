@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# Q. Python If-Else
+# ## Q. Python If-Else
 # 
 # Given an integer,perform the following conditional actions:
 # 
@@ -24,7 +24,7 @@ else:
     print('Not Weird')
 
 
-# Q. Find the Runner-Up Score!
+# ## Q. Find the Runner-Up Score!
 # Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given  scores. Store them in a list and find the score of the runner-up.
 # https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
 
@@ -59,7 +59,7 @@ lst = (sorted([x for x in newset],reverse=True))[1]
 print(lst)
 
 
-# Q. Nested Lists:
+# ### Q. Nested Lists:
 # Given the names and grades for each student in a class of N students, store them in a nested list and print the name(s) of any student(s) having the second lowest grade.
 # https://www.hackerrank.com/challenges/nested-list/problem
 
@@ -103,7 +103,7 @@ for name in finallist:
     print(name)
 
 
-# Q.Find a string
+# ### Q.Find a string
 # In this challenge, the user enters a string and a substring. You have to print the number of times that the substring occurs in the given string. String traversal will take place from left to right, not from right to left.
 # https://www.hackerrank.com/challenges/find-a-string/problem
 
@@ -141,7 +141,7 @@ if __name__ == '__main__':
     print(result)
 
 
-# Q. Finding the percentage
+# ### Q. Finding the percentage
 # The provided code stub will read in a dictionary containing key/value pairs of name:[marks] for a list of students. Print the average of the marks array for the student name provided, showing 2 places after the decimal.https://www.hackerrank.com/challenges/finding-the-percentage/problem
 
 # In[ ]:
@@ -164,7 +164,7 @@ avg = '{:.2f}'.format(avg)
 print(avg)
 
 
-# Q. sWAP cASE
+# ### Q. sWAP cASE
 # You are given a string and your task is to swap cases. In other words, convert all lowercase letters to uppercase letters and vice versa. https://www.hackerrank.com/challenges/swap-case/problem
 
 # In[14]:
@@ -185,7 +185,7 @@ if __name__ == '__main__':
     print(result)
 
 
-# Q. What's Your Name?
+# ### Q. What's Your Name?
 # You are given the firstname and lastname of a person on two different lines. Your task is to read them and print the following: "Hello firstname lastname! You just delved into python."
 # https://www.hackerrank.com/challenges/whats-your-name/problem 
 
@@ -205,7 +205,7 @@ if __name__ == '__main__':
     print_full_name(first_name, last_name)
 
 
-# Q. Mutations:
+# ### Q. Mutations
 # We have seen that lists are mutable (they can be changed), and tuples are immutable (they cannot be changed). Let's try to understand this with an example. You are given an immutable string, and you want to make changes to it.https://www.hackerrank.com/challenges/python-mutations/problem
 
 # In[ ]:
@@ -222,7 +222,7 @@ if __name__ == '__main__':
     print(s_new)
 
 
-# Q. Capitalize:
+# ### Q. Capitalize
 # You are asked to ensure that the first and last names of people begin with a capital letter in their passports. For example, alison heck should be capitalised correctly as Alison Heck.
 # https://www.hackerrank.com/challenges/capitalize/problem
 
@@ -242,7 +242,7 @@ if __name__ == '__main__':
     fptr.close()
 
 
-# Q. itertools.product()
+# ### Q. itertools.product()
 # This tool computes the cartesian product of input iterables.
 # It is equivalent to nested for-loops.
 # For example, product(A, B) returns the same as ((x,y) for x in A for y in B).
@@ -284,7 +284,7 @@ for i in range(numCust):
 print(income)
 
 
-# Q. itertools.permutations()
+# ### Q. itertools.permutations()
 # You are given a string S.
 # Your task is to print all possible permutations of size k of the string in lexicographic sorted order.
 # https://www.hackerrank.com/challenges/itertools-permutations/problem
@@ -300,7 +300,7 @@ for p in perm:
     print(x)
 
 
-# Q. Introduction to Sets
+# ### Q. Introduction to Sets
 # Ms. Gabriel Williams is a botany professor at District College. One day, she asked her student Mickey to compute the average of all the plants with distinct heights in her greenhouse.
 # Formula used: sum of distinct height/total number of distinct height
 # https://www.hackerrank.com/challenges/py-introduction-to-sets/problem
@@ -318,7 +318,7 @@ def average(array):
     return avg
 
 
-# Q. DefaultDict Tutorial
+# ### Q. DefaultDict Tutorial
 # In this challenge, you will be given 2 integers, n and m. There are n words, which might repeat, in word group A. There are m words belonging to word group B. For each m words, check whether the word has appeared in group A or not. Print the indices of each occurrence of m in group A. If it does not appear, print -1.
 # https://www.hackerrank.com/challenges/defaultdict-tutorial/problem
 
@@ -342,7 +342,7 @@ for l in lst:
         print(-1)
 
 
-# Q. Calendar Module
+# ### Q. Calendar Module
 # You are given a date. Your task is to find what the day is on that date.
 # https://www.hackerrank.com/challenges/calendar-module/problem
 
@@ -374,7 +374,7 @@ else:
     print('SUNDAY')
 
 
-# Q. Exceptions
+# ### Q. Exceptions
 # https://www.hackerrank.com/challenges/exceptions/problem
 
 # In[ ]:
@@ -389,7 +389,7 @@ for i in range(int(num)):
         print("Error Code:",e)
 
 
-# Q. Collections.namedtuple()
+# ### Q. Collections.namedtuple()
 # https://www.hackerrank.com/challenges/py-collections-namedtuple/problem
 
 # In[ ]:
@@ -408,7 +408,7 @@ avg = s/n
 print('{:.2f}'.format(avg))
 
 
-# Q. Collections.OrderedDict()
+# ### Q. Collections.OrderedDict()
 # https://www.hackerrank.com/challenges/py-collections-ordereddict/problem
 
 # In[ ]:
@@ -424,7 +424,7 @@ for k,v in ordered_dictionary.items():
     print(k,v)
 
 
-# Q. itertools.combinations()
+# ### Q. itertools.combinations()
 # https://www.hackerrank.com/challenges/itertools-combinations/problem
 
 # In[16]:
@@ -442,7 +442,7 @@ for x in lst2:
     print(''.join(x))
 
 
-# Q. Symmetric Difference
+# ### Q. Symmetric Difference
 # https://www.hackerrank.com/challenges/symmetric-difference/problem
 
 # In[ ]:
@@ -461,7 +461,7 @@ for i in sorted(symdif):
     print(i)
 
 
-# Q. Set .add()
+# ### Q. Set.add()
 # Output the total number of distinct country stamps on a single line.
 # https://www.hackerrank.com/challenges/py-set-add/problem
 
@@ -474,7 +474,7 @@ for i in range(int(input())):
 print(len(s))
 
 
-# Q. itertools.combinations_with_replacement()
+# ### Q. itertools.combinations_with_replacement()
 # Print the combinations with their replacements of string S on separate lines.
 # https://www.hackerrank.com/challenges/itertools-combinations-with-replacement/problem
 
@@ -488,7 +488,7 @@ for c in comb:
     print(''.join(c))
 
 
-# Q. Set .discard(), .remove() & .pop()
+# ### Q. Set.discard(), .remove() & .pop()
 # https://www.hackerrank.com/challenges/py-set-discard-remove-pop/problem
 
 # In[ ]:
@@ -525,7 +525,7 @@ for  i in range(m):
 print(sum(s))
 
 
-# Q. Collections.deque()
+# ### Q. Collections.deque()
 # https://www.hackerrank.com/challenges/py-collections-deque/problem
 
 # In[ ]:
@@ -544,7 +544,7 @@ for i in range(n):
 print(*d)
 
 
-# Q. Set .union() Operation
+# ### Q. Set.union() Operation
 # https://www.hackerrank.com/challenges/py-set-union/problem
 
 # In[ ]:
@@ -559,7 +559,7 @@ common = engrolls.union(frrolls)
 print(len(common))
 
 
-# Q. Set .intersection() Operation
+# ### Q. Set .intersection() Operation
 # https://www.hackerrank.com/challenges/py-set-intersection-operation/problem
 
 # In[ ]:
@@ -572,7 +572,7 @@ frrolls = set(map(int,input().split()))
 print(len(engrolls.intersection(frrolls)))
 
 
-# Q. Set .symmetric_difference() Operation
+# ### Q. Set .symmetric_difference() Operation
 # https://www.hackerrank.com/challenges/py-set-symmetric-difference-operation/problem
 
 # In[ ]:
@@ -587,7 +587,7 @@ uncommon = engrolls.symmetric_difference(frrolls)
 print(len(uncommon))
 
 
-# Q. The Captain's Room
+# ### Q. The Captain's Room
 # https://www.hackerrank.com/challenges/py-the-captains-room/problem
 
 # In[17]:
@@ -600,6 +600,23 @@ rooms = collections.Counter(list(map(int,input().split())))
 for k,v in rooms.items():
     if v == 1:
         print(k)
+
+
+# ### Q. Check Strict Superset
+# https://www.hackerrank.com/challenges/py-check-strict-superset/problem
+
+# In[ ]:
+
+
+lstbool = []
+setA = set(map(int,input().split()))
+for i in range(int(input())):
+    seti = set(map(int,input().split()))
+    if (len(seti) < len(setA)) and (setA.union(seti) == setA):
+        lstbool.append(True)
+    else:
+        lstbool.append(False)
+print(all(lstbool))
 
 
 # In[ ]:
